@@ -82,8 +82,10 @@ Math.max(-5, -7); // -7
 ```js
 Math.pow(7, 2); // 49
 ```
-
-## Строки
-## Функции
-## Логика
-## Циклы
+## Пример задания
+Округлить число `value` до `n` символов после запятой.
+```js
+const roundNum = (value, n) => Math.round(value * (10 ** n)) / (10 ** n);
+console.log(roundNum(1.12345, 2)); // 1.12
+console.log(roundNum(1.12345, 4)); // 1.1235
+```
